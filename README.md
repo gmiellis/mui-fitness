@@ -1,33 +1,24 @@
-# React Bootstrap
+# mui fitness
 
-React boilerplate project for Manchester Codes' projects.
+This App creates a list of exercises that you can add to or delete. Similar to a to do app.
 
-## Getting Started
+![mui-fitness](https://i.imgur.com/ZwEI9bv.png)
 
-### Clone down this repository (replace `<your_project_name>`:
+**Built Using:**
 
-```bash
-git clone git@github.com:MCRcodes/react-bootstrap.git <your_project_name>
-```
+- React.js
+- material-ul
 
-### Install dependencies
+**Running the app**
 
-```bash
-npm i
-```
+To run this project you will need to clone it onto your local machine and install all dependencies. Navigate into the directory and install all dependencies by entering the following command on your terminal window:
 
-### Start up the application:
+`npm install`
 
-```bash
-npm start
-```
+From the directory enter:
 
-### Visit `localhost:8080` in your browser.
+`npm start`
 
-You should see a **Hello World** message.
+**Author**
 
-### Change the rendered output
-
-You can change what is mounted to the DOM in `src/index.jsx`. 
-
-It might be a good idea to make an `App` component inside `App.jsx` (will likely handle your layout and routing), and to mount this to the DOM.
+Gaz Ellis

@@ -13,15 +13,15 @@ import {
 import { Delete } from '@material-ui/icons';
 import { withStyles } from '@material-ui/core/styles';
 
-const styles = {
-  root: {
-    margin: 20,
-    padding: 20,
-    maxWidth: 400,
-  },
-};
+// const styles = {
+//   root: {
+//     margin: 20,
+//     padding: 20,
+//     maxWidth: 400,
+//   },
+// };
 
-export default withStyles(styles)(
+// const withStyles = (styles) => (
   class App extends Component {
   state = {
     exercises: [
@@ -113,4 +113,6 @@ export default withStyles(styles)(
       </Paper>
     );
   }
-  });
+}
+
+export default App;
